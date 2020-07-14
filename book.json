@@ -39,7 +39,7 @@
         },
         "tbfed-pagefooter": {
             "copyright": "Copyright © liujing 2019",
-            "modify_label": "创建时间：",
+            "modify_label": "修改时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "json": {
