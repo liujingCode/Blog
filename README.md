@@ -16,6 +16,10 @@ gitbook build
 sh book.sh "提交信息"
 ```
 
+##注意事项
+执行book.sh 如果没有提交信息  git提交会报错
+
+
 
 
 

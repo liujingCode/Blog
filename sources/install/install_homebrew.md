@@ -1,19 +1,30 @@
-#安装homebrew
-homebrew官方地址:https://brew.sh/index_zh-cn
-##安装
+# 安装homebrew
+
+homebrew官网:https://brew.sh/index_zh-cn
+
+## 安装
+
 将以下命令复制到终端
+
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-##卸载
+
+## 卸载
+
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
 ```
-##安装包
+
+## 安装包
+
 ```
 brew install xxx
 ```
-##相关命令
+
+## 相关命令
+
+
 ```
 Example usage:
   brew search [TEXT|/REGEX/]
@@ -39,5 +50,3 @@ Further help:
   man brew
   https://docs.brew.sh
 ```
-
-

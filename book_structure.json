@@ -1,14 +1,14 @@
 [
   {
-    "path": "condition/index_3.md"
-  },
-  {
-    "path": "condition/index_2.md"
+    "title": "安装Node",
+    "heading": "h1",
+    "content": "\n<footer class=\"page-footer\"><span class=\"copyright\">Copyright © liujing 2019 all right reserved，powered by Gitbook</span><span class=\"footer-modification\">修改时间：\n2020-07-14 18:25:14\n</span></footer>",
+    "path": "install/install_node.md"
   },
   {
     "title": "安装homebrew",
     "heading": "h1",
-    "content": "\n<p>homebrew官方地址:<a href=\"https://brew.sh/index_zh-cn\">https://brew.sh/index_zh-cn</a></p>\n",
+    "content": "\n<p>homebrew官网:<a href=\"https://brew.sh/index_zh-cn\">https://brew.sh/index_zh-cn</a></p>\n",
     "children": [
       {
         "title": "安装",
@@ -28,43 +28,91 @@
       {
         "title": "相关命令",
         "heading": "h2",
-        "content": "\n<pre><code>Example usage:\n  brew search [TEXT|/REGEX/]\n  brew info [FORMULA...]\n  brew install FORMULA...\n  brew update\n  brew upgrade [FORMULA...]\n  brew uninstall FORMULA...\n  brew list [FORMULA...]\n\nTroubleshooting:\n  brew config\n  brew doctor\n  brew install --verbose --debug FORMULA\n\nContributing:\n  brew create [URL [--no-fetch]]\n  brew edit [FORMULA...]\n\nFurther help:\n  brew commands\n  brew help [COMMAND]\n  man brew\n  https://docs.brew.sh\n</code></pre><footer class=\"page-footer\"><span class=\"copyright\">Copyright © liujing 2019 all right reserved，powered by Gitbook</span><span class=\"footer-modification\">修改时间：\n2020-06-24 18:17:37\n</span></footer>"
+        "content": "\n<pre><code>Example usage:\n  brew search [TEXT|/REGEX/]\n  brew info [FORMULA...]\n  brew install FORMULA...\n  brew update\n  brew upgrade [FORMULA...]\n  brew uninstall FORMULA...\n  brew list [FORMULA...]\n\nTroubleshooting:\n  brew config\n  brew doctor\n  brew install --verbose --debug FORMULA\n\nContributing:\n  brew create [URL [--no-fetch]]\n  brew edit [FORMULA...]\n\nFurther help:\n  brew commands\n  brew help [COMMAND]\n  man brew\n  https://docs.brew.sh\n</code></pre><footer class=\"page-footer\"><span class=\"copyright\">Copyright © liujing 2019 all right reserved，powered by Gitbook</span><span class=\"footer-modification\">修改时间：\n2020-07-14 18:14:36\n</span></footer>"
       }
     ],
-    "path": "condition/index_1.md"
+    "path": "install/install_homebrew.md"
   },
   {
-    "path": "condition/index.md"
-  },
-  {
-    "title": "Summary",
+    "title": "安装gitbook",
     "heading": "h1",
-    "content": "\n<ul>\n<li><a href=\"README.md\">简介</a></li>\n<li><a href=\"1/1.md\">问题汇总</a> <ul>\n<li><a href=\"1/1_1.md\">iOS</a><ul>\n<li><a href=\"1/1_1_1.md\">问题1</a>  </li>\n<li><a href=\"1/1_1_2.md\">问题2</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<footer class=\"page-footer\"><span class=\"copyright\">Copyright © liujing 2019 all right reserved，powered by Gitbook</span><span class=\"footer-modification\">修改时间：\n2019-08-08 12:25:14\n</span></footer>",
-    "path": "问题汇总/iOS/问题汇总_iOS_问题3.md"
-  },
-  {
-    "title": "Summary",
-    "heading": "h1",
-    "content": "\n<ul>\n<li><a href=\"README.md\">简介</a></li>\n<li><a href=\"1/1.md\">问题汇总</a> <ul>\n<li><a href=\"1/1_1.md\">iOS</a><ul>\n<li><a href=\"1/1_1_1.md\">问题1</a>  </li>\n<li><a href=\"1/1_1_2.md\">问题2</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<footer class=\"page-footer\"><span class=\"copyright\">Copyright © liujing 2019 all right reserved，powered by Gitbook</span><span class=\"footer-modification\">修改时间：\n2019-08-08 12:25:14\n</span></footer>",
-    "path": "问题汇总/iOS/问题汇总_iOS_问题2.md"
-  },
-  {
-    "title": "Summary",
-    "heading": "h1",
-    "content": "\n<ul>\n<li><a href=\"README.md\">简介</a></li>\n<li><a href=\"1/1.md\">问题汇总</a> <ul>\n<li><a href=\"1/1_1.md\">iOS</a><ul>\n<li><a href=\"1/1_1_1.md\">问题1</a>  </li>\n<li><a href=\"1/1_1_2.md\">问题2</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<footer class=\"page-footer\"><span class=\"copyright\">Copyright © liujing 2019 all right reserved，powered by Gitbook</span><span class=\"footer-modification\">修改时间：\n2019-08-08 12:25:14\n</span></footer>",
-    "path": "问题汇总/iOS/问题汇总_iOS_问题1.md"
-  },
-  {
-    "title": "Summary",
-    "heading": "h1",
-    "content": "\n<ul>\n<li><a href=\"README.md\">简介</a></li>\n<li><a href=\"1/1.md\">问题汇总</a> <ul>\n<li><a href=\"1/1_1.md\">iOS</a><ul>\n<li><a href=\"1/1_1_1.md\">问题1</a>  </li>\n<li><a href=\"1/1_1_2.md\">问题2</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<footer class=\"page-footer\"><span class=\"copyright\">Copyright © liujing 2019 all right reserved，powered by Gitbook</span><span class=\"footer-modification\">修改时间：\n2019-08-08 12:25:14\n</span></footer>",
-    "path": "问题汇总/iOS/问题汇总_iOS.md"
-  },
-  {
-    "title": "Summary",
-    "heading": "h1",
-    "content": "\n<ul>\n<li><a href=\"README.md\">简介</a></li>\n<li><a href=\"1/1.md\">问题汇总</a> <ul>\n<li><a href=\"1/1_1.md\">iOS</a><ul>\n<li><a href=\"1/1_1_1.md\">问题1</a>  </li>\n<li><a href=\"1/1_1_2.md\">问题2</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<footer class=\"page-footer\"><span class=\"copyright\">Copyright © liujing 2019 all right reserved，powered by Gitbook</span><span class=\"footer-modification\">修改时间：\n2019-08-08 12:25:14\n</span></footer>",
-    "path": "问题汇总/问题汇总.md"
+    "content": "\n<p>gitbook官网：<a href=\"https://www.gitbook.com\">https://www.gitbook.com</a></p>\n",
+    "children": [
+      {
+        "title": "一. 安装",
+        "heading": "h2",
+        "content": "\n",
+        "children": [
+          {
+            "title": "1.1. 安装node.js：<a href=\"install_node.md\">安装node</a>",
+            "heading": "h3",
+            "content": "\n"
+          },
+          {
+            "title": "1.2. 安装gitbook",
+            "heading": "h3",
+            "content": "\n<p>使用npm安装gitbook</p>\n<pre><code>npm install gitbook-cli -g\n</code></pre>"
+          }
+        ]
+      },
+      {
+        "title": "二. 使用gitbook",
+        "heading": "h2",
+        "content": "\n",
+        "children": [
+          {
+            "title": "2.1. 初始化电子书",
+            "heading": "h3",
+            "content": "\n<pre><code>gitbook init\n</code></pre><p>执行<code>gitbook init</code>后会在指定目录下生成<code>README.md</code>和<code>SUMMARY.md</code>两个文件</p>\n<p><code>SUMMARY.md</code>为目录文件，格式为<code>* [目录名称](文件路径)</code>，如下:</p>\n<pre><code>* [简介](README.md)\n\n* [环境搭建](condition/index.md) \n    * [gitbook](install/install_gitbook.md)\n    * [homebrew](install/install_homebrew.md)\n    * [node](install/install_node.md)\n</code></pre>"
+          },
+          {
+            "title": "2.2. gitbook的配置文件:<code>book.json</code>",
+            "heading": "h3",
+            "content": "\n<p><code>book.json</code>配置项如下：</p>\n<pre><code>{\n    &quot;title&quot;: &quot;爱生活爱Coding&quot;,\n    &quot;description&quot;: &quot;不重复造轮子&quot;,\n    &quot;author&quot;: &quot;liujing&quot;,\n    &quot;language&quot;: &quot;zh-hans&quot;,\n    &quot;root&quot;:&quot;sources&quot;,\n    &quot;links&quot;: {\n        &quot;sidebar&quot;: {\n            &quot;有问题找百度&quot;: &quot;https://www.baidu.com&quot;\n        }\n    },\n    &quot;plugins&quot;: [\n        &quot;-highlight&quot;,\n        &quot;-sharing&quot;,\n        &quot;search-pro&quot;,\n        &quot;editlink&quot;,\n        &quot;pageview-count&quot;,\n        &quot;copy-code-button&quot;,\n        &quot;github&quot;,\n        &quot;sharing-plus&quot;,\n        &quot;splitter&quot;,\n        &quot;toggle-chapters&quot;,\n        &quot;tbfed-pagefooter&quot;,\n        &quot;json&quot;,\n        &quot;prism&quot;,\n        &quot;insert-logo&quot;,\n        &quot;styles-less&quot;\n    ],\n    &quot;pluginsConfig&quot;: {\n        &quot;github&quot;: {\n            &quot;url&quot;: &quot;https://github.com/liujingCode&quot;\n        },\n        &quot;editlink&quot;: {\n            &quot;base&quot;: &quot;https://github.com/liujingCode/Blog/edit/master/sources&quot;,\n            &quot;label&quot;: &quot;编辑本页&quot;\n        },\n        &quot;theme-default&quot;: {\n            &quot;showLevel&quot;: true\n        },\n        &quot;tbfed-pagefooter&quot;: {\n            &quot;copyright&quot;: &quot;Copyright © liujing 2019&quot;,\n            &quot;modify_label&quot;: &quot;修改时间：&quot;,\n            &quot;modify_format&quot;: &quot;YYYY-MM-DD HH:mm:ss&quot;\n        },\n        &quot;json&quot;: {\n            &quot;output&quot;: &quot;book_structure.json&quot;\n        },\n        &quot;sharing&quot;: {\n            &quot;facebook&quot;: true,\n            &quot;twitter&quot;: true,\n            &quot;weibo&quot;: true,\n            &quot;qq&quot;: true,\n            &quot;all&quot;: [\n                &quot;douban&quot;,\n                &quot;google&quot;,\n                &quot;qzone&quot;,\n                &quot;linkedin&quot;\n            ]\n        },\n        &quot;prism&quot;: {\n            &quot;css&quot;: [\n                &quot;prismjs/themes/prism-solarizedlight.css&quot;\n            ],\n            &quot;lang&quot;: {\n                &quot;flow&quot;: &quot;typescript&quot;\n            }\n        },\n\n        &quot;insert-logo&quot;: {\n            &quot;url&quot;: &quot;http://pvwouh26j.bkt.clouddn.com/liujingHead.png&quot;,\n            &quot;style&quot;: &quot;background: none; max-height: 30px; min-height: 30px&quot;\n        }\n    }\n}\n</code></pre><p>其中<code>root</code>表示源文件路径（<code>README.md</code>和<code>SUMMARY.md</code>两个文件所在的目录）</p>\n"
+          },
+          {
+            "title": "2.3. 电子书预览",
+            "heading": "h3",
+            "content": "\n<p>执行<code>gitbook serve</code></p>\n"
+          },
+          {
+            "title": "2.4. 电子书发布",
+            "heading": "h3",
+            "content": "\n<p>执行<code>gitbook build</code></p>\n"
+          }
+        ]
+      },
+      {
+        "title": "三. 部署到github pages",
+        "heading": "h2",
+        "content": "\n",
+        "children": [
+          {
+            "title": "四. gitbook自动化脚本",
+            "heading": "h3",
+            "content": "\n"
+          }
+        ]
+      },
+      {
+        "title": "五. 实例",
+        "heading": "h2",
+        "content": "\n",
+        "children": [
+          {
+            "title": "5.1. 目录结构",
+            "heading": "h3",
+            "content": "\n"
+          },
+          {
+            "title": "5.2 . 配置文件",
+            "heading": "h3",
+            "content": "\n<footer class=\"page-footer\"><span class=\"copyright\">Copyright © liujing 2019 all right reserved，powered by Gitbook</span><span class=\"footer-modification\">修改时间：\n2020-07-14 18:47:55\n</span></footer>"
+          }
+        ]
+      }
+    ],
+    "path": "install/install_gitbook.md"
   },
   {
     "title": "项目简介",
