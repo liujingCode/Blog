@@ -1,4 +1,4 @@
-mv _book/* ../liujingCode/
+mv _book/* ../liujingCode
 rm -r _book
 git add .
 git commit -m $1
