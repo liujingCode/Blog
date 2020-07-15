@@ -6,9 +6,9 @@ gitbook官网：https://www.gitbook.com
 
 
 
-### 1.1. 安装node.js：[安装node](install_node.md)
+#### 1.1. 安装node.js：[安装node](install_node.md)
 
-### 1.2. 安装gitbook
+#### 1.2. 安装gitbook
 
 使用npm安装gitbook
 
@@ -22,7 +22,7 @@ npm install gitbook-cli -g
 
 ## 二. 使用gitbook
 
-### 2.1. 初始化电子书
+#### 2.1. 初始化电子书
 
 ```
 gitbook init
@@ -41,9 +41,27 @@ gitbook init
     * [node](install/install_node.md)
 ```
 
-### 2.2. gitbook的配置文件:`book.json`
+#### 2.2. gitbook的配置文件:`book.json`
 
-`book.json`配置项如下：
+一般项目的目录结构如下
+
+```
+.
+├── book.json
+└── sources/
+    ├── README.md
+    └── SUMMARY.md
+```
+
+`book.json`对应的配置如下
+
+```
+{
+    "root": "sources"
+}
+```
+
+`book.json`完全配置项如下：
 
 ```
 {
@@ -86,7 +104,7 @@ gitbook init
             "showLevel": true
         },
         "tbfed-pagefooter": {
-            "copyright": "Copyright © liujing 2019",
+            "copyright": "Copyright © liujing 2020",
             "modify_label": "修改时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
@@ -123,33 +141,64 @@ gitbook init
 
 ```
 
-其中`root`表示源文件路径（`README.md`和`SUMMARY.md`两个文件所在的目录）
+#### 2.3. 安装插件
 
-### 2.3. 电子书预览
+执行`gitbook install ./`
+
+
+
+#### 2.4. 电子书预览
 
 执行`gitbook serve`
 
 
 
-### 2.4. 电子书发布
+#### 2.5. 电子书发布
 
 执行`gitbook build`
 
 
 
-## 三. 部署到github pages
+## 三. gitbook自动化脚本
 
+新建文件`book.sh`
 
+```
+mv _book/* ../liujingCode
+rm -r _book
+git add .
+git commit -m $1
+git push origin master
+cd ../liujingCode
+git add .
+git commit -m $1
+git push origin master
+```
 
-### 四. gitbook自动化脚本
+`book.sh`文件说明
 
+```
+// 移动_book目录下的所有文件到liujingCode文件夹
+mv _book/* ../liujingCode
+// 删除 _book文件夹
+rm -r _book
+// git 添加修改
+git add .
+// git提交
+git commit -m $1
+// git推送到远程电子书仓库
+git push origin master
+// 进入到liujingCode文件夹
+cd ../liujingCode
+// git 添加修改
+git add .
+// git提交
+git commit -m $1
+// git推送到远程博客仓库
+git push origin master
+```
 
-
-## 五. 实例
-
-### 5.1. 目录结构
-
-### 5.2 . 配置文件
+执行`sh book.sh “git提交信息”`即可自定执行上述流程
 
 
 
